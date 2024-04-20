@@ -1,0 +1,33 @@
+footer{
+    position: relative;
+    bottom: 40px;
+    margin-top:40px ;
+    padding: 16px 0 60px;
+    background-color: #171a21;
+    img{
+        height: 25px;
+    }
+    .footer{
+        padding: 16px 0 0;
+        color: $color-3;
+        &__top{
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .copyright__nese{
+        display: flex;
+        justify-content: space-between;
+    }
+    .role{
+        height: 9px;
+        border-top: 1px $color-3 solid;
+        opacity: 0.2;
+    }
+    .footer__bottom{
+        font-size: 13px;
+    }
+}

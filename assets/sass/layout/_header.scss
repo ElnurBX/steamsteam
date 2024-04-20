@@ -1,0 +1,67 @@
+@import "../utils/variables";
+
+.header{
+    &__home{
+    
+        background-color: #171d25;
+        height: 104px;
+        .container{
+            position: relative;
+            right: -90px;
+            top: -3px;
+            
+            display: flex;
+        }
+        &__logo{
+            padding-top: 30px;
+            margin-right: 40px;
+            height: 44px;
+            img{
+                width: 176px;
+                height: 44px;
+            }
+            }
+        &__nav{
+            color: #dcdedf;
+            font-weight: 700;
+            >ul{
+                padding:45px 0 0 0 ;
+                >li:hover .headerdropdawn{
+                    display: block;
+                }
+                li:hover{
+                    color: #fff;
+                }
+                gap: 14px;
+                display: flex;
+            }
+            
+        }
+        &__loginandinstall{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+            &__loginlang{
+                color: $color-3;
+                font-size: 11px;
+                display: flex;
+                align-items: center;gap: 8px;
+            }
+            #lang{
+                background-color: transparent;
+                color: $color-3;
+                outline: 0;
+                border: 0;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                justify-content: center;
+                i{
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}

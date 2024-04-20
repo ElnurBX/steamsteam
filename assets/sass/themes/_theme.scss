@@ -1,0 +1,26 @@
+// .homebg{
+//     background: #000;
+//     background-image: url("https://clan.cloudflare.steamstatic.com/images/3090835/db84eb2eba2359d8552dcbf6bea27ceb7594970f.jpg");
+//     background-repeat: no-repeat;
+//     background-size: 150%;
+//     height: 10000px;
+//     background-position: center top;
+// }
+.active{
+    &__li{
+        color: $primary;
+        text-decoration: underline $primary 3px;
+    }
+    &__li:hover{
+        color: $primary !important;
+    }
+    &__label{
+    color: $primary !important;
+    }
+
+}
+.textDecoration{
+&__ul{
+    text-decoration: underline;
+}
+}

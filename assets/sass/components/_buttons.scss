@@ -1,0 +1,30 @@
+@import "../utils/variables";
+.btn{
+    display: block;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__install{
+        display: flex;
+        gap: 10px;
+        background-color: $green;
+        color: #e4e5cd;
+        font-size: 11px;
+        height: 24px;
+    }
+    &__blue{
+        position: relative;
+        background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        padding: 12px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: inherit;
+        text-align: center;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,18 @@
+@import "../utils/variables";
+.headerdropdawn{
+    display: none;
+    position: absolute;
+    color: white;
+    background-color:$second;
+
+    li{
+        padding: 3px 15px;
+        font-size: 12px;
+        
+        color: $color-3;
+    }
+    li:hover{
+        background-color: $color-3;
+        color: $second !important;
+    }
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="register">
+<div class="container-fluid homebg">
+    
+    
+    <header class="header__home">
+        <div class="container ">
+        <div class="header__home__logo" >
+            <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="">
+        </div>
+        <div class="header__home__nav">
+            <ul>
+                <li class="active__li"><a href="../index.html">MAĞAZA</a>
+                <ul class="headerdropdawn">
+                    <li><a href="">Ana Sayfa</a></li>
+                    <li><a href="">Keşif Kuyruğu</a></li>
+                    <li><a href="">İstek Listesi</a></li>
+                    <li><a href="">Puan Dükanı</a></li>
+                    <li><a href="">Haberler</a></li>
+                    <li><a href="">İstistikler</a></li>
+                </ul>
+                </li>
+                <li><a href="#">TOPLULUK</a>
+                    <ul class="headerdropdawn">
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#">Tartışmalar</a></li>
+                        <li><a href="#">Atölye</a></li>
+                        <li><a href="#">Pazar</a></li>
+                        <li><a href="#">Yayınlar</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HAKKINDA</a></li>
+                <li><a href="#">DESTEK</a></li>
+            </ul>
+        </div>
+        <div class="header__home__loginandinstall">
+            <a href="" class="btn btn__install"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1" alt="">Steam'i Yükleyin</a>
+            <div class="header__home__loginandinstall__loginlang">
+                <a href="../html/login.html">giriş</a><span>|</span><button id="lang">dil<i class="fa-solid fa-sort-down"></i></button>
+            </div>
+            <div class="popup_block_new" id="language_dropdown" >
+                <div id="langPopup" class="popup_body popup_menu ">
+                    <a class="popup_menu_item tight" href="#" >简体中文 (Basitleştirilmiş Çince)</a>
+                    <a class="popup_menu_item tight" href="#" >繁體中文 (Geleneksel Çince)</a>
+                    <a class="popup_menu_item tight" href="#" >日本語 (Japonca)</a>
+                    <a class="popup_menu_item tight" href="#" >한국어 (Korece)</a>
+                    <a class="popup_menu_item tight" href="#" >ไทย (Tayca)</a>
+                    <a class="popup_menu_item tight" href="#" >Български (Bulgarca)</a>
+                    <a class="popup_menu_item tight" href="#" >Čeština (Çekçe)</a>
+                    <a class="popup_menu_item tight" href="#" >Dansk (Danca)</a>
+                    <a class="popup_menu_item tight" href="#" >Deutsch (Almanca)</a>
+                    <a class="popup_menu_item tight" href="#" >English (İngilizce)</a>
+                    <a class="popup_menu_item tight" href="#" >Español - España (İspanyolca - İspanya)</a>
+                    <a class="popup_menu_item tight" href="#" >Español - Latinoamérica (İspanyolca - Latin Amerika)</a>
+                    <a class="popup_menu_item tight" href="#" >Ελληνικά (Yunanca)</a>
+                    <a class="popup_menu_item tight" href="#" >Français (Fransızca)</a>
+                    <a class="popup_menu_item tight" href="#" >Italiano (İtalyanca)</a>
+                    <a class="popup_menu_item tight" href="#">Bahasa Indonesia (Endonezce)</a>
+                    <a class="popup_menu_item tight" href="#" >Magyar (Macarca)</a>
+                    <a class="popup_menu_item tight" href="#" >Nederlands (Hollandaca)</a>
+                    <a class="popup_menu_item tight" href="#" >Norsk (Norveççe)</a>
+                    <a class="popup_menu_item tight" href="#" >Polski (Lehçe)</a>
+                    <a class="popup_menu_item tight" href="#" >Português (Portekizce - Portekiz)</a>
+                    <a class="popup_menu_item tight" href="#" >Português - Brasil (Portekizce - Brezilya)</a>
+                    <a class="popup_menu_item tight" href="#" >Română (Rumence)</a>
+                    <a class="popup_menu_item tight" href="#" >Русский (Rusça)</a>
+                    <a class="popup_menu_item tight" href="#" >Suomi (Fince)</a>
+                    <a class="popup_menu_item tight" href="#" >Svenska (İsveççe)</a>
+                    <a class="popup_menu_item tight" href="#" >Tiếng Việt (Vietnamca)</a>
+                    <a class="popup_menu_item tight" href="#" >Українська (Ukraynaca)</a>
+                    <a class="popup_menu_item tight" href="#" target="_blank">Bir çeviri sorunu bildirin</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </header>
+    <main>
+        <section class="register__section">
+            <div class="register__section__form">
+                
+                <h3>HESABINIZI OLUŞTURUN</h3>
+                <form action="">
+                    <div class="register__section__form__inp">
+                        <label for="email">E-posta Adresi</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="register__section__form__inp">
+                        <label for="password">E-posta adresinizi onaylayın</label>
+                        <input type="password"  id="password">
+                    </div>
+                    <div class="register__section__form__inp">
+                        <label for="country">İkamet Edilen Ülke</label>
+                        <select name="country" id="country" class="blueish" >
+                            <option value="UM">ABD Minör Outlying Adaları</option>
+                            <option value="VI">ABD Virgin Adaları</option>
+                            <option value="AF">Afganistan</option>
+                            <option value="AX">Aland Adaları</option>
+                            <option value="DE">Almanya</option>
+                            <option value="AS">Amerikan Samoası</option>
+                            <option value="AD">Andora</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarktika</option>
+                            <option value="AG">Antigua ve Barbuda</option>
+                            <option value="AR">Arjantin</option>
+                            <option value="AL">Arnavutluk</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Avustralya</option>
+                            <option value="AT">Avusturya</option>
+                            <option value="AZ" selected="">Azerbaycan</option>
+                            <option value="BL">BL</option>
+                            <option value="BQ">BQ</option>
+                            <option value="BS">Bahamalar</option>
+                            <option value="BH">Bahreyn</option>
+                            <option value="BD">Bangladeş</option>
+                            <option value="BB">Barbados</option>
+                            <option value="EH">Batı Sahra</option>
+                            <option value="BY">Belarus</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BE">Belçika</option>
+                            <option value="BJ">Benin</option>
+                            <option value="BM">Bermuda</option>
+                            <option value="BT">Bhutan</option>
+                            <option value="AE">Birleşik Arap Emirlikleri</option>
+                            <option value="US">Birleşik Devletler</option>
+                            <option value="GB">Birleşik Krallık</option>
+                            <option value="VG">Birleşik Krallık Virgin Adaları</option>
+                            <option value="BO">Bolivya</option>
+                            <option value="BA">Bosna-Hersek</option>
+                            <option value="BW">Botsvana</option>
+                            <option value="BV">Bouvet Adası</option>
+                            <option value="BR">Brezilya</option>
+                            <option value="BN">Bruney Sultanlığı</option>
+                            <option value="BG">Bulgaristan</option>
+                            <option value="BF">Burkina Faso</option>
+                            <option value="BI">Burundi</option>
+                            <option value="CU">CU</option>
+                            <option value="CW">CW</option>
+                            <option value="KY">Cayman Adaları</option>
+                            <option value="GI">Cebelitarık</option>
+                            <option value="DZ">Cezayir</option>
+                            <option value="CX">Christmas Adası</option>
+                            <option value="DJ">Cibuti</option>
+                            <option value="CC">Cocos Adaları</option>
+                            <option value="CK">Cook Adaları</option>
+                            <option value="DK">Danimarka</option>
+                            <option value="CD">Demokratik Kongo Cumhuriyeti</option>
+                            <option value="DM">Dominik</option>
+                            <option value="DO">Dominik Cumhuriyeti</option>
+                            <option value="TL">Doğu Timor</option>
+                            <option value="EC">Ekvador</option>
+                            <option value="GQ">Ekvator Ginesi</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="ID">Endonezya</option>
+                            <option value="ER">Eritre</option>
+                            <option value="AM">Ermenistan</option>
+                            <option value="EE">Estonya</option>
+                            <option value="SZ">Esvatini</option>
+                            <option value="ET">Etiyopya</option>
+                            <option value="FK">Falkland Adaları</option>
+                            <option value="FO">Faroe Adaları</option>
+                            <option value="MA">Fas</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="CI">Fildişi Sahili</option>
+                            <option value="PH">Filipinler</option>
+                            <option value="PS">Filistin İşgal Bölgesi</option>
+                            <option value="FI">Finlandiya</option>
+                            <option value="FR">Fransa</option>
+                            <option value="GF">Fransız Guyanası</option>
+                            <option value="PF">Fransız Polinezyası</option>
+                            <option value="GA">Gabon</option>
+                            <option value="GM">Gambiya</option>
+                            <option value="GH">Gana</option>
+                            <option value="GN">Gine</option>
+                            <option value="GW">Gine-Bissau</option>
+                            <option value="GD">Grenada</option>
+                            <option value="GL">Grönland</option>
+                            <option value="GP">Guadeloupe</option>
+                            <option value="GU">Guam</option>
+                            <option value="GT">Guatemala</option>
+                            <option value="GG">Guernsey</option>
+                            <option value="GY">Guyana</option>
+                            <option value="ZA">Güney Afrika</option>
+                            <option value="GS">Güney Georgia ve Güney Sandwich Adaları</option>
+                            <option value="KR">Güney Kore Cumhuriyeti</option>
+                            <option value="TF">Güneydeki Fransız Bölgeleri</option>
+                            <option value="GE">Gürcistan</option>
+                            <option value="HT">Haiti</option>
+                            <option value="HM">Heard ve Mc Donald Adaları</option>
+                            <option value="IN">Hindistan</option>
+                            <option value="IO">Hint Okyanusundaki İngiliz Bölgesi</option>
+                            <option value="NL">Hollanda</option>
+                            <option value="HN">Honduras</option>
+                            <option value="HK">Hong Kong</option>
+                            <option value="HR">Hırvatistan</option>
+                            <option value="IQ">Irak</option>
+                            <option value="JM">Jamaika</option>
+                            <option value="JP">Japonya</option>
+                            <option value="JE">Jersey</option>
+                            <option value="KH">Kamboçya</option>
+                            <option value="CM">Kamerun</option>
+                            <option value="CA">Kanada</option>
+                            <option value="ME">Karadağ</option>
+                            <option value="QA">Katar</option>
+                            <option value="KZ">Kazakistan</option>
+                            <option value="KE">Kenya</option>
+                            <option value="KI">Kiribati</option>
+                            <option value="CO">Kolombiya</option>
+                            <option value="KM">Komorlar</option>
+                            <option value="CG">Kongo</option>
+                            <option value="XK">Kosova</option>
+                            <option value="CR">Kostarika</option>
+                            <option value="KW">Kuveyt</option>
+                            <option value="MP">Kuzey Mariana Adaları</option>
+                            <option value="CY">Kıbrıs</option>
+                            <option value="KG">Kırgızistan</option>
+                            <option value="LA">Lao Demokratik Halk Cumhuriyeti</option>
+                            <option value="LS">Lesotho</option>
+                            <option value="LV">Letonya</option>
+                            <option value="LR">Liberya</option>
+                            <option value="LY">Libya</option>
+                            <option value="LI">Liechtenstein</option>
+                            <option value="LT">Litvanya</option>
+                            <option value="LB">Lübnan</option>
+                            <option value="LU">Lüksemburg</option>
+                            <option value="MF">MF</option>
+                            <option value="HU">Macaristan</option>
+                            <option value="MG">Madagaskar</option>
+                            <option value="MO">Makao</option>
+                            <option value="MK">Makedonya Cumhuriyeti</option>
+                            <option value="MW">Malavi</option>
+                            <option value="MV">Maldivler</option>
+                            <option value="MY">Malezya</option>
+                            <option value="ML">Mali</option>
+                            <option value="MT">Malta</option>
+                            <option value="IM">Man Adası</option>
+                            <option value="MH">Marshall Adaları</option>
+                            <option value="MQ">Martinik</option>
+                            <option value="MU">Mauritius</option>
+                            <option value="YT">Mayotte</option>
+                            <option value="MX">Meksika</option>
+                            <option value="FM">Mikronezya Federal Devletleri</option>
+                            <option value="MD">Moldova Cumhuriyeti</option>
+                            <option value="MC">Monako</option>
+                            <option value="MS">Montserrat</option>
+                            <option value="MR">Moritanya</option>
+                            <option value="MZ">Mozambik</option>
+                            <option value="MN">Moğolistan</option>
+                            <option value="MM">Myanmar</option>
+                            <option value="EG">Mısır</option>
+                            <option value="NA">Namibya</option>
+                            <option value="NR">Nauru</option>
+                            <option value="NP">Nepal</option>
+                            <option value="NE">Nijer</option>
+                            <option value="NG">Nijerya</option>
+                            <option value="NI">Nikaragua</option>
+                            <option value="NU">Niue</option>
+                            <option value="NF">Norfolk Adası</option>
+                            <option value="NO">Norveç</option>
+                            <option value="CF">Orta Afrika Cumhuriyeti</option>
+                            <option value="PK">Pakistan</option>
+                            <option value="PW">Palau</option>
+                            <option value="PA">Panama</option>
+                            <option value="PG">Papua Yeni Gine</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Peru</option>
+                            <option value="PN">Pitcairn Adaları</option>
+                            <option value="PL">Polonya</option>
+                            <option value="PT">Portekiz</option>
+                            <option value="PR">Porto Riko</option>
+                            <option value="RE">Reunion</option>
+                            <option value="RO">Romanya</option>
+                            <option value="RW">Ruanda</option>
+                            <option value="RU">Rusya Federasyonu</option>
+                            <option value="SS">SS</option>
+                            <option value="SX">SX</option>
+                            <option value="SH">Saint Helena</option>
+                            <option value="KN">Saint Kitts ve Nevis</option>
+                            <option value="LC">Saint Lucia</option>
+                            <option value="PM">Saint Pierre ve Miquelon</option>
+                            <option value="VC">Saint Vincent ve Grenadinler</option>
+                            <option value="WS">Samoa</option>
+                            <option value="SM">San Marino</option>
+                            <option value="ST">Sao Tome ve Principe</option>
+                            <option value="SN">Senegal</option>
+                            <option value="SC">Seyşeller</option>
+                            <option value="SL">Sierra Leone</option>
+                            <option value="SG">Singapur</option>
+                            <option value="SK">Slovakya</option>
+                            <option value="SI">Slovenya</option>
+                            <option value="SB">Solomon Adaları</option>
+                            <option value="SO">Somali</option>
+                            <option value="LK">Sri Lanka</option>
+                            <option value="SD">Sudan</option>
+                            <option value="SR">Surinam</option>
+                            <option value="SY">Suriye</option>
+                            <option value="SA">Suudi Arabistan</option>
+                            <option value="SJ">Svalbard ve Jan Mayen</option>
+                            <option value="RS">Sırbistan</option>
+                            <option value="TJ">Tacikistan</option>
+                            <option value="TZ">Tanzanya</option>
+                            <option value="TH">Tayland</option>
+                            <option value="TW">Tayvan</option>
+                            <option value="TG">Togo</option>
+                            <option value="TK">Tokelau</option>
+                            <option value="TO">Tonga</option>
+                            <option value="TT">Trinidad ve Tobago</option>
+                            <option value="TN">Tunus</option>
+                            <option value="TV">Tuvalu</option>
+                            <option value="TR">Türkiye</option>
+                            <option value="TM">Türkmenistan</option>
+                            <option value="TC">Türk ve Caicos Adaları</option>
+                            <option value="UG">Uganda</option>
+                            <option value="UA">Ukrayna</option>
+                            <option value="OM">Umman</option>
+                            <option value="UY">Uruguay</option>
+                            <option value="VU">Vanuatu</option>
+                            <option value="VA">Vatikan</option>
+                            <option value="VE">Venezuela</option>
+                            <option value="VN">Vietnam</option>
+                            <option value="WF">Wallis ve Futuna Adaları</option>
+                            <option value="YE">Yemen</option>
+                            <option value="NC">Yeni Kaledonya</option>
+                            <option value="NZ">Yeni Zelanda</option>
+                            <option value="CV">Yeşilburun</option>
+                            <option value="GR">Yunanistan</option>
+                            <option value="ZM">Zambiya</option>
+                            <option value="ZW">Zimbabve</option>
+                            <option value="TD">Çad</option>
+                            <option value="CZ">Çek Cumhuriyeti</option>
+                            <option value="CN">Çin</option>
+                            <option value="UZ">Özbekistan</option>
+                            <option value="JO">Ürdün</option>
+                            <option value="IR">İran</option>
+                            <option value="IE">İrlanda</option>
+                            <option value="ES">İspanya</option>
+                            <option value="IL">İsrail</option>
+                            <option value="SE">İsveç</option>
+                            <option value="CH">İsviçre</option>
+                            <option value="IT">İtalya</option>
+                            <option value="IS">İzlanda</option>
+                            <option value="CL">Şili</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div id="captcha_entry" style="">
+                            <div id="captcha_entry_recaptcha"><div id="recaptcha_render_4352241449144928504"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ihrxtfruc46j" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://google.com/recaptcha/enterprise/anchor?ar=1&amp;k=6LdIFr0ZAAAAAO3vz0O0OQrtAefzdJcWQM2TMYQH&amp;co=aHR0cHM6Ly9zdG9yZS5zdGVhbXBvd2VyZWQuY29tOjQ0Mw..&amp;hl=tr&amp;v=QoukH5jSO3sKFzVEA7Vc8VgC&amp;theme=dark&amp;size=normal&amp;s=AIEn0Dh9-cPhOkhcG2hBYkbJxpPkF060U7ila3e1GEmq8EWZ06C-QMI3ecDPo1nKzvi9HpVvtwsUAl1TBYdY1KBvPMOdSn_6QSt4c9XXd5h9-J_ZLBNjje9slHn7KDyonmNf2niBKgeBUczIIRxFpGLcj-RLzoLVPXAJxQutByp0Av2POxlMUDBtY4_jt5kTm8ZPqIt1U5VfAYPlnyszyXyRpTzLvnqTd_CD5_2MhwdGSmcdjrmTE20c3v2pWU_0_HQe9ocRC9lQyJQS&amp;cb=8zr2o0701u1y"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></div>
+                            <div id="captcha_entry_text" style="display: none;">
+                                <input type="hidden" id="captchagid" name="captchagid" value="4352241449144928504">
+                                    <div class="form_area">
+                                        <img id="captchaImg" src="https://store.cloudflare.steamstatic.com/public/shared/images/trans.gif" border="0">
+                                        <br><br>
+                                        <label for="captcha_text">Üstteki karakterleri girin</label>
+
+                                        <input type="text" name="captcha_text" id="captcha_text">
+                                    </div>
+                                    <div class="form_notes" style="padding-top: 10px;">
+                                        <label for="captcha_text">
+                                            <a id="captchaRefreshLink" href="javascript:RefreshCaptcha()">Yenile</a>
+                                            <a href="javascript:RefreshCaptcha()" style="text-decoration: none;">
+                                                <img id="captchaRefreshImg" src="https://store.cloudflare.steamstatic.com/public/shared/images/ico_captcha_refresh.gif" border="0">
+                                            </a>
+                                        </label>
+                                    </div>
+                                <div style="clear: left;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="yas13">
+                        <input type="checkbox" id="check13yas">
+                        <label for="check13yas"> 13 yaşındayım veya 13 yaşından büyüğüm, Steam Abonelik Sözleşmesi ve Valve Gizlilik Politikası koşullarını kabul ediyorum.
+
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn__blue">Devam Et</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer >
+        <div class="container-fluid footer">
+            <div class="container">
+                <div class="role"></div> 
+                <div class="footer__top">
+                    <div class="footer__top__logo">
+                        <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+                    </div>
+                    <div class="footer__top__copyright">
+                        <p>© 2024 Valve Corporation. Tüm hakları saklıdır. Tüm ticari markalar, ABD ve diğer ülkelerde ilgili sahiplerinin mülkiyetindedir.</p>
+                        <p>Uygulanabilir yerlerde fiyatlara KDV dahildir. <span class="footer__nese"> <span>  Gizlilik Politikası</span> <span>|</span>    <span> Yasal Bilgi</span>  <span>|</span>   <span>Steam Abonelik Sözleşmesi</span>   <span>|</span>   <span>İadeler </span>  <span>|</span>   <span>Çerezler  </span></span> 
+                        </p>
+                    </div>
+                    <div class="footer__top__logo">
+                        <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+                    </div>
+                </div>
+                <div class="role"></div> 
+                <div class="footer__bottom">
+                    <span class="copyright__nese"> 
+                    <span> Valve Hakkında
+                    </span> 
+                    <span>|</span>   
+                    <span>  
+                        Kariyer
+                    </span>
+                    <span>|</span>   
+                    <span>Steamworks</span>   
+                    <span>|</span>   
+                    <span>
+                        Steam Dağıtımı 
+                    </span>  
+                    <span>|</span>   
+                    <span>Destek
+                    </span>
+                    <span>|</span>   
+                    <span><i class="fa-brands fa-facebook-f"></i> Steam
+                    </span>
+                    <span>|</span>   
+                    <span>Destek
+                    </span>
+                    <span>|</span>   
+                    <span><i class="fa-brands fa-x-twitter"></i>@steam
+                    </span>
+                </span> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/JS/desegin.js"></script>
+</div>
+</body>
+</html>
