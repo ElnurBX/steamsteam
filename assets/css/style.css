@@ -93,6 +93,15 @@ body {
     font-family: inherit;
     text-align: center;
     cursor: pointer; }
+  .btn__darkInstal {
+    padding-left: 15px;
+    padding-right: 9px;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(103, 112, 123, 0.2);
+    color: #e4e5cd;
+    font-size: 11px;
+    height: 24px; }
 
 .headerdropdawn {
   display: none;
@@ -400,6 +409,16 @@ footer {
       display: flex;
       align-items: center;
       gap: 8px; }
+    .header__home__loginandinstall__notification {
+      background-color: rgba(103, 112, 123, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2px 16px; }
+      .header__home__loginandinstall__notification i {
+        color: #8b929a;
+        width: 14px;
+        height: 14px; }
     .header__home__loginandinstall #lang {
       background-color: transparent;
       color: #dcdedf;
@@ -513,11 +532,6 @@ footer {
     .formcontrol__left form .submitBtn {
       display: flex;
       justify-content: center; }
-      .formcontrol__left form .submitBtn button {
-        width: 270px;
-        height: 47px;
-        text-align: center;
-        margin: auto; }
     .formcontrol__left form a {
       text-align: center; }
   .formcontrol__right {
@@ -621,3 +635,8 @@ footer {
         font-size: 14px; }
       .register__section__form button {
         margin: 30px 0; }
+
+.button {
+  width: 270px;
+  height: 47px;
+  text-align: center; }

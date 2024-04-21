@@ -86,20 +86,21 @@
     <main>
         <section class="register__section">
             <div class="register__section__form">
-                
+                <form action="./login.html" id="register__form">
+                    <div id="form__change">
                 <h3>HESABINIZI OLUŞTURUN</h3>
-                <form action="">
+                
                     <div class="register__section__form__inp">
-                        <label for="email">E-posta Adresi</label>
-                        <input type="email" id="email">
+                        <label for="reg_email">E-posta Adresi</label>
+                        <input type="email" id="reg_email">
                     </div>
                     <div class="register__section__form__inp">
-                        <label for="password">E-posta adresinizi onaylayın</label>
-                        <input type="password"  id="password">
+                        <label for="reg_email_check">E-posta adresinizi onaylayın</label>
+                        <input type="email"  id="reg_email_check">
                     </div>
                     <div class="register__section__form__inp">
                         <label for="country">İkamet Edilen Ülke</label>
-                        <select name="country" id="country" class="blueish" >
+                        <select name="country" id="reg_country" class="blueish" >
                             <option value="UM">ABD Minör Outlying Adaları</option>
                             <option value="VI">ABD Virgin Adaları</option>
                             <option value="AF">Afganistan</option>
@@ -381,7 +382,24 @@
 
                         </label>
                     </div>
-                    <button type="submit" class="btn btn__blue">Devam Et</button>
+                    <div onclick="changeForm()" class="btn button btn__blue">Devam Et</div>
+                    </div> 
+                    <div id="form__change2" class="d-none">
+                        <h3>HESABINIZI OLUŞTURUN</h3>
+                            <div class="register__section__form__inp mb-5">
+                                <label for="nickname">Steam Hesap Adı</label>
+                                <input type="text" id="nickname">
+                            </div>
+                            <div class="register__section__form__inp">
+                                <label for="reg_password">Parola Seçin</label>
+                                <input type="password" id="reg_password">
+                            </div>
+                            <div class="register__section__form__inp">
+                                <label for="reg_password_check">Parolanızı onaylayın</label>
+                                <input type="password"  id="reg_password_check">
+                            </div>
+                            <button type="submit" class="btn btn__blue">Bitdi</button>
+                        </div> 
                 </form>
             </div>
         </section>
@@ -435,7 +453,9 @@
             </div>
         </div>
     </footer>
-    <script src="assets/JS/desegin.js"></script>
+  
+    <script src="../assets/JS/desegin.js"></script>
+    <script src="../assets/JS/pages/register/register.js"></script>
 </div>
 </body>
 </html>

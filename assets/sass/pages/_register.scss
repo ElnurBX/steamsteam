@@ -65,13 +65,7 @@
                 .submitBtn{
                     display: flex;
                     justify-content: center;
-                button{
-                    
-                    width: 270px;
-                    height: 47px;
-                    text-align: center;
-                    margin: auto;
-                }}
+                }
                 a{
                     text-align: center;
                 }
@@ -199,4 +193,10 @@
             }
         }
     }
+}
+.button{
+                    
+    width: 270px;
+    height: 47px;
+    text-align: center;
 }

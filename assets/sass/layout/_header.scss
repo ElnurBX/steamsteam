@@ -49,6 +49,18 @@
                 display: flex;
                 align-items: center;gap: 8px;
             }
+            &__notification{
+                background-color: rgba(103, 112, 123, 0.2);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2px 16px;
+                i{
+                    color: #8b929a;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
             #lang{
                 background-color: transparent;
                 color: $color-3;

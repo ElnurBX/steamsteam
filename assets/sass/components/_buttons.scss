@@ -27,4 +27,14 @@
         text-align: center;
         cursor: pointer;
     }
+    &__darkInstal{
+        padding-left: 15px;
+        padding-right: 9px;
+        display: flex;
+        gap: 10px;
+        background-color: rgba(103, 112, 123, 0.2);
+        color: #e4e5cd;
+        font-size: 11px;
+        height: 24px;
+    }
 }
